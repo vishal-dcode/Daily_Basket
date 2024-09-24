@@ -9,6 +9,14 @@ A quick and easy-to-use modern UI React app that helps you manage your grocery l
 - ❌ **Delete items**: Remove items from the list with a single click.
 - 🌐 **Modern UI**: Clean and responsive user interface.
 
+## Preview
+
+![App Preview](./src/assets/screenshots/preview.png)
+
+## Live Demo
+
+Check out the live app [here](https://daily-basket-coral.vercel.app/).
+
 ## Tech Stack
 
 - **React**: Frontend JavaScript library for building the user interface.
@@ -22,7 +30,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/daily-basket.git
+   git clone https://github.com/vishal-dcode/Daily_Basket.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -41,7 +49,13 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-How to Use
-Enter the name of the grocery item in the input field.
-Click the "+" button to add the item to your list.
-Click on an item to delete it from the list.
+## How to Use
+
+1. Enter the name of the grocery item in the input field.
+2. Click the "+" button to add the item to your list.
+3. Click on an item to delete it from the list.
+
+## Contributing
+
+Feel free to submit a pull request to contribute to this project. Any suggestions or improvements are welcome!
+

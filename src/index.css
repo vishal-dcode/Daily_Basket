@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 300;
+  src: url('./assets/fonts/HelveticaNowDisplay-Thin.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 400;
+  src: url('./assets/fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 500;
+  src: url('./assets/fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 600;
+  src: url('./assets/fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 700;
+  src: url('./assets/fonts/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-ExtraBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  font-weight: 200;
+  src: url('./assets/fonts/HelveticaNowDisplay-Light.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNowDisplay-Light.woff') format('woff');
+}
+
+:root {
+  --clr-bg: #5a7141;
+  --clr-ctr: #6b7f56;
+  --clr-yellow: #f5e44f;
+  --clr-red: #ff2c2c;
+  --clr-black: #292929;
+  --clr-white: #ffffff;
+
+  --ff-helvetica: 'HelveticaNowDisplay';
+}
+
+* {
+  font-family: var(--ff-helvetica);
+}
+body {
+  background-color: var(--clr-bg);
+}
+
